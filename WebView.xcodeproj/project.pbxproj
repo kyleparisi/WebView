@@ -13,6 +13,7 @@
 		C043AB5C21C13B2C007FD171 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C043AB5A21C13B2C007FD171 /* Main.storyboard */; };
 		C043AB6821C13B2C007FD171 /* WebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C043AB6721C13B2C007FD171 /* WebViewTests.swift */; };
 		C043AB7321C13B2C007FD171 /* WebViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C043AB7221C13B2C007FD171 /* WebViewUITests.swift */; };
+		C0A41EEB234D5C6200272B2A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A41EEA234D5C6200272B2A /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		C043AB6E21C13B2C007FD171 /* WebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C043AB7221C13B2C007FD171 /* WebViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewUITests.swift; sourceTree = "<group>"; };
 		C043AB7421C13B2C007FD171 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0A41EEA234D5C6200272B2A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0A41EEB234D5C6200272B2A /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +83,7 @@
 				C043AB6621C13B2C007FD171 /* WebViewTests */,
 				C043AB7121C13B2C007FD171 /* WebViewUITests */,
 				C043AB5221C13B2C007FD171 /* Products */,
+				C0A41EE9234D5C6200272B2A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +126,14 @@
 				C043AB7421C13B2C007FD171 /* Info.plist */,
 			);
 			path = WebViewUITests;
+			sourceTree = "<group>";
+		};
+		C0A41EE9234D5C6200272B2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0A41EEA234D5C6200272B2A /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
